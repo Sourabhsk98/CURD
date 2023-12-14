@@ -1,0 +1,12 @@
+//Create Database connection
+
+create database employees;
+create table employee;
+
+use employees;
+
+create table employee(
+id int primarykey,
+name varchar(25),
+age int,
+salary double);
